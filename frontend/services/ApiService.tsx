@@ -56,8 +56,6 @@ const getService = (image: any, option: Options,data: Map<string, number> | null
             return preProcessDataService(option);
         case Options.border_remove:
             return preProcessDataService(option);
-        case Options.border_remove:
-            return preProcessDataService(option);
         case "upload":
             return uploadDataService(option, image);
         default:
